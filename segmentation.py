@@ -20,7 +20,7 @@ import cca2
 # license plate. We'll fix this later
 
 # The invert was done so as to convert the black pixel to white pixel and vice versa
-license_plate = np.invert(cca2.plate_like_objects[2])
+license_plate = np.invert(cca2.plate_like_objects[0])
 
 labelled_plate = measure.label(license_plate)
 
